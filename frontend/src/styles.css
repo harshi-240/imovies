@@ -1,0 +1,16 @@
+body { background: #f5f6fa; }
+.brand-bar { background: linear-gradient(90deg, #1d2671, #c33764); }
+.hero { background: linear-gradient(120deg, #1d2671, #c33764); }
+.movie-card { border: 0; border-radius: 14px; overflow: hidden; transition: transform .2s; }
+.movie-card:hover { transform: translateY(-4px); }
+
+.seat-wrap { overflow-x: auto; padding-bottom: 8px; }
+.screen { text-align: center; background: #cfd8ff; color: #334; border-radius: 0 0 50% 50% / 0 0 30px 30px; padding: 6px; margin: 0 auto 24px; max-width: 520px; font-size: .75rem; letter-spacing: 3px; }
+.seat-row { display: flex; justify-content: center; align-items: center; gap: 6px; margin-bottom: 6px; }
+.row-label { width: 20px; font-weight: 600; color: #667; }
+.seat { width: 32px; height: 32px; border-radius: 6px 6px 3px 3px; border: 1px solid #28a745; background: #fff; font-size: .7rem; padding: 0; display: inline-block; }
+.seat:hover:not(:disabled) { background: #d4f5dc; }
+.seat.selected { background: #28a745; color: #fff; }
+.seat.booked { background: #bbb; border-color: #bbb; cursor: not-allowed; }
+.legend { display: flex; justify-content: center; gap: 20px; font-size: .85rem; }
+.legend i { width: 18px; height: 18px; margin-right: 6px; vertical-align: middle; }
