@@ -6,7 +6,7 @@
 
 1. INTRODUCTION
 --------------------------------------------------------------
-Project Title : IMovies - Movie Ticket Booking
+Project Title : IMovies - Movie Ticket Booking Made Simple
 
 Team Members  : Individual project
                 HARSHITA PATIDAR - Full Stack Developer
